@@ -1,0 +1,6 @@
+zk.connect={{ env "ZOOKEEPER_CONNECT" }}
+zk.connectiontimeout.ms=1000000
+consumer.timeout.ms=-1
+groupid={{ env "KAFKA_MM_GROUPID" }}
+shallow.iterator.enable=true
+mirror.topics.whitelist={{ env "KAFKA_MM_TOPIC_WHITELIST" }}
