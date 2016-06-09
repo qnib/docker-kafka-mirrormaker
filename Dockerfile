@@ -1,4 +1,4 @@
-FROM qnib/kafka
+FROM qnib/kafka:0.8.2.2
 ENV  ZOOKEEPER_CONNECT=zookeeper.service.consul:2181/kafka \
      KAFKA_MM_GROUPID=kafka-mirrormaker \
      KAFKA_MM_TOPIC_WHITELIST=test
