@@ -7,4 +7,5 @@ ADD etc/consul-templates/kafka/mirrormaker/consumer_config.properties.ctmpl \
     /etc/consul-templates/kafka/mirrormaker/
 ADD opt/qnib/kafka/mirrormaker/bin/start.sh \
    /opt/qnib/kafka/mirrormaker/bin/
+RUN rm -f /etc/consul.d/kafka.json
 
